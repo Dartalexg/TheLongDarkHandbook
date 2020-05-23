@@ -1,0 +1,49 @@
+apply plugin: 'maven-publish'
+apply plugin: 'com.android.library'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+
+android {
+
+    compileSdkVersion rootProject.ext.sdkVersion
+
+    defaultConfig {
+        minSdkVersion 21
+        targetSdkVersion rootProject.ext.sdkVersion
+        versionCode 1
+        versionName "1.0"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+//We need to place this apply below android section because publishing.gradle needs compileSdkVersion
+apply from: 'publishing.gradle'
+
+ext {
+    exoPlayerVersion = "2.8.3"
+    libraryVersion = '1.0.0'
+    publishedGroupId = 'com.redmadrobot.gallery'
+    artifact = 'android-gallery'
+}
+
+dependencies {
+
+    // Kotlin
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    // Androidx
+    implementation 'androidx.appcompat:appcompat:1.0.2'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.0-alpha2'
+    implementation 'androidx.core:core-ktx:1.0.1'
+    // Photo view
+    implementation 'com.github.chrisbanes:PhotoView:2.3.0'
+    // Video player
+    implementation "com.google.android.exoplayer:exoplayer-core:$exoPlayerVersion"
+    implementation "com.google.android.exoplayer:exoplayer-ui:$exoPlayerVersion"
+    // Image loader
+    implementation 'com.github.bumptech.glide:glide:4.7.1'
+}

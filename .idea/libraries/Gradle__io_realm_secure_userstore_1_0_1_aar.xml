@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: io.realm:secure-userstore:1.0.1@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d59eaf56b0e33c50c362c1497618b1d3/secure-userstore-1.0.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d59eaf56b0e33c50c362c1497618b1d3/secure-userstore-1.0.1/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.realm/secure-userstore/1.0.1/5d636c2b69996040ba26408be80e8094ddb54eb2/secure-userstore-1.0.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.realm/secure-userstore/1.0.1/37741563c108938108c0ee32194bd3ccbb80c91e/secure-userstore-1.0.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

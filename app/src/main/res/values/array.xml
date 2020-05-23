@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="story_array">
+        <item>Эпизод 1. Не уходи смиренно</item>
+        <item>Эпизод 2. Световая фуга</item>
+        <item>Эпизод 3. Элегия распутья</item>
+    </string-array>
+
+    <string-array name="episode1_array">
+        <item>Глава 1. Воспоминание</item>
+        <item>Глава 2. Крушение</item>
+        <item>Глава 3. Серая Мать</item>
+        <item>Глава 4. Потерянный рай</item>
+    </string-array>
+
+    <string-array name="episode2_array">
+        <item>Глава 1. Раненый зверолов</item>
+        <item>Глава 2. Лучшая защита</item>
+        <item>Глава 3. Сигнал/Шум</item>
+        <item>Глава 4. Один в поле воин</item>
+        <item>Глава 5. Воскресшая надежда</item>
+    </string-array>
+
+    <string-array name="episode3_array">
+        <item>Глава 1. Травма</item>
+        <item>Глава 2. Упавшая звезда</item>
+        <item>Глава 3. Метель надвигается</item>
+        <item>Глава 4. Последствия</item>
+    </string-array>
+
+    <string-array name="maps_array">
+        <item>Загадочное озеро</item>
+        <item>ЖД ветка "Водопады ворона"</item>
+        <item>Прибрежное шоссе</item>
+        <item>Разбитое шоссе</item>
+        <item>Зона запустения</item>
+        <item>ГЭС "Картер" и окружение</item>
+        <item>Отрадная долина</item>
+        <item>Волчья гора</item>
+        <item>Одинокая топь</item>
+        <item>Разбитая железная дорога</item>
+        <item>Милтон</item>
+        <item>Долина Тихой реки</item>
+    </string-array>
+
+    <string-array name="subject_array">
+        <item>Одежда</item>
+        <item>Оружие</item>
+        <item>Медикаменты</item>
+        <item>Инструменты</item>
+        <item>Пища</item>
+        <item>Вещи для крафта</item>
+        <item>Другое</item>
+    </string-array>
+
+    <string-array name="person_array">
+        <item>Уилл Маккензи</item>
+        <item>Хоббс</item>
+        <item>Серая Мать</item>
+        <item>Астрид Гринвуд</item>
+        <item>Мэтис</item>
+        <item>Мафусаил</item>
+        <item>Молли</item>
+        <item>Джереми</item>
+    </string-array>
+
+    <string-array name="tip_array">
+        <item>Волк</item>
+        <item>Лось</item>
+        <item>Медведь</item>
+        <item>Кролик</item>
+        <item>Лесной волк</item>
+        <item>Ворон</item>
+        <item>Олень</item>
+        <item>Кижуч</item>
+    </string-array>
+</resources>

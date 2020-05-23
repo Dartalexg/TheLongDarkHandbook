@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_story"
+            android:icon="@drawable/book_story"
+            android:title="@string/story" />
+        <item
+            android:id="@+id/nav_map"
+            android:icon="@drawable/map_menu"
+            android:title="@string/map" />
+
+
+        <item
+            android:id="@+id/nav_person"
+            android:icon="@drawable/person"
+            android:title="@string/person" />
+        <item
+            android:id="@+id/nav_tip"
+            android:icon="@drawable/animals"
+            android:title="@string/tip" />
+
+
+    </group>
+
+    <item android:title="Связь">
+        <menu>
+            <item
+                android:id="@+id/nav_VK"
+                android:icon="@drawable/ic_menu_share"
+
+                android:title="@string/VK" />
+        </menu>
+    </item>
+
+</menu>
